@@ -1,0 +1,187 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #AE83B6;
+}
+
+header {
+    background-color: #fff;
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "MuseoModerno", sans-serif;
+    color: #84E8E2;
+    font-size: 100px;
+}
+
+.navbar>.container {
+    align-items: baseline;
+}
+
+h2, li {
+    font-family: "Nova Square", sans-serif;
+}
+
+li a{
+    text-decoration: none;
+    color: #CDCAC8;
+}
+
+#cabecalho .main-nav-link.active{
+    color: #AE83B6;
+    font-size: larger;
+}
+
+.botao {
+    font-family: "MuseoModerno", sans-serif;
+}
+
+#desafios .botao {
+    background-color: #fff;
+    color: #84E8E2;
+}
+
+.botao, .botao:hover {
+    background-color: #AE83B6;
+    color: #fff;
+}
+
+h4 {
+    color: #3B678F;
+    font-size: 16px;
+    border-color: #84E8E2;
+}
+
+.card-info {
+    top: auto;
+    padding: 5%;
+    background-color: rgba(132, 232, 226, 80%);
+    border-radius: 10px;
+    margin: 5%
+}
+
+#treinos .card:hover {
+    cursor: pointer;
+}
+
+.texto-destaque {
+    left: 65%;
+    right: 10%;
+    text-align: left;
+    color: #3B678F;
+    bottom: 15rem;
+}
+
+.tabs-treino {
+    justify-content: space-between;
+}
+
+.tabs-treino .nav-link {
+    border-radius: 0;
+    padding: 0 8%;
+    color: #fff;
+    text-decoration: none;
+    background-color: #71B952;
+}
+
+.tabs-treino .nav-link.active {
+    color: #3B678F;
+    background-color: #D0EDC2;
+    font-weight: bold;
+}
+
+#treinos {
+    background-color: #D0EDC2;
+}
+
+#treinos-tab h2, .alimentacao-texto p, #alimentacao>h2{
+    color: #fff;
+}
+
+.rounded-4 {
+    border: none;
+}
+
+#desafios {
+    background-color: #fff;
+    color: #3B678F;
+}
+
+#alimentacao .botao {
+    background-color: #71B952;
+    color: #fff;
+}
+
+#alimentacao {
+    background-color: #3B678F;
+    color: #fff;
+}
+
+.titulo-alim {
+    color: #71B952;
+}
+
+.foto img {
+    height: 400px;
+    object-fit: cover;
+}
+
+#contato {
+    background-color: #fff
+}
+
+#contato li a, #contato h5 {
+    color: #AE83B6;
+}
+
+#contato h5 {
+    font-weight: 400;
+}
+
+footer {
+    background-color: #84E8E2;
+    color: #3B678F;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .texto-destaque {
+        top: 20%;
+        left: 60%;
+        right: 3%;
+    }
+
+    .foto img {
+        height: 300px;
+    }
+
+    p, h5 {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .texto-destaque {
+        top: 0%;
+        left: 10%;
+        right: 10%;
+        text-align: right;
+    }
+
+    .texto-destaque h2, .texto-destaque p {
+        text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.3);
+    }
+
+    .tabs-treino .nav-link {
+        padding: 0 2%;
+        font-size: small;
+    }
+
+    p, h5 {
+        font-size: small;
+    }
+}
